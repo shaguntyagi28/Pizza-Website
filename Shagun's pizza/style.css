@@ -1,0 +1,83 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color:#5257b8 !important;
+}
+.header{
+    background-color:white;
+    text-align: center;
+    
+    top: 0;
+    width: 100%;
+    
+}
+.header .name{
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+}
+.header .tag{
+    font-size: 14px;
+    color: #777;
+}
+
+.footer{
+    background-color:white;
+    text-align: center;
+    
+    
+    width: 100%;
+    font-size: 14px;
+    
+}
+.creator{
+    
+    color: #777;
+    font-size: 18px;
+}
+
+.prices{
+    background-color: whitesmoke;
+    padding: 13px;
+    padding-bottom: 3px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.order{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 13px;
+    padding-bottom: 3px;
+    margin: 10px;
+    border-radius: 2px;
+    color: #777;
+}
+.order h1{
+    color: #5257b8;
+    font-size: 60px;
+    border-bottom: #777 ;
+    padding-bottom: 33px;
+}
+.inputs{
+    background-color: White; border: 0px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    width: 70%;
+    color: #777;
+   
+}
+.submit{
+    background-color: #5282b8; border: 0px;
+    padding: 5px;
+    margin: 20px;
+    color: whitesmoke;
+    width: 70%;
+}
+.check{
+    color: red;
+    border: 2px solid #ccc;
+}
+#total{
+    font-size: 74px;
+}

@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+<body>
+  <div style="background-image: url('bg.jpg');">
+<div class="header">
+    
+<div class="name" background-color: lightblue >Shagun's Pizza Parlor</div>
+<div class="tag" background-color: lightblue >We are happy to serve you!</div>
+</div>
+
+<div class="">
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="prices">
+              <h1>Prices</h1>
+              <p>The Prices are as follows-</p>
+              <h4>Prices by size</h4>
+              <p>Small : 149 rs</p>
+              <p>Medium : 299 rs</p>
+              <p>Large : 449 rs</p>
+              <h4>Price of Toping(40 rs each)</h4>
+              <p>Onion</p>
+              <p>Pepper</p>
+              <p>Mushrroms</p>
+              <p>Olives</p>
+            </div>
+           
+
+        </div>
+        <div class="col-md-6">
+
+            <div class="order">
+                <h1 >Place an Order</h1>
+                
+ 
+Name: <input type="text" id="name" class="inputs" placeholder="Mr. Your Name "><br>
+  Address:<input type="text" class="inputs" id="address" placeholder="1234 Street City, ST Zip"><br>
+
+  Phone: <input type="number" class="inputs" id="phone" placeholder="+91 8375815909"><br>
+  Email: <input type="email" class="inputs" id="email" placeholder="shagun@gmail.com"><br>
+
+  <br/>
+    <h4 style="float: left;">Pizza toppings </h4>
+    <input type='checkbox' class="check" id ="top1"checked>Onion
+    <input type='checkbox' class="check" id ="top2">Mushrooms
+    <input type='checkbox' class="check" id ="top3">Pepperoni
+    <input type='checkbox'class="check" id ="top4">Olives
+         <br>
+    <h4 style="float: left; position: absolute;">Pizza Size </h4>
+    <input type="radio"  name="size" id="s1" >Small
+    <input type="radio" name="size" id="s2">Medium
+    <input type="radio" name="size"  id="s3"checked>large
+<br>
+<h4 style="float: left; position: absolute;">No. of Pizzas </h4>
+<select id="number">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+<br>
+  <input type="button" value="Generate Bill" class="submit" onclick="validate()" href="#">
+
+            </div>
+        </div>
+        <div class="col Prices" style="color: #777;">
+            <h1 style="color: #5257b8;">BILL</h1>
+            <h4>Toping price:</h4>
+            <div id="top_price">
+
+            </div>
+            <h4>size of pizza:</h4>
+                <div id="size_price">
+
+                </div>
+            <h4>total no of Pizaas:</h4>   
+                <div id="no3">
+
+                </div>
+            <h3>Total</h3>
+            <div id="total">
+
+            </div>
+        </div>
+       
+
+    </div>
+   
+</div>
+
+<div class="footer">
+
+<div class="row">
+<div class="col">Gmail: shagun28@gmail.com, 181332@gmail.com, pizza_service@gmail.com
+    
+<p>
+    adress: Jaypee University of Information Technology
+</p></div>
+<div class="col">
+  Hope you liked our pizza service, feel free to give any feedback. We are happy to help.
+</div>
+<div class="col">
+    Phone no :181332,
+    8375815909, 181332
+    123456789,181332
+</div>
+</div>
+
+<div class="row">
+    <div class="col"></div>
+    <div class="col">
+       <div class="creator"> Created by Shagun</div>
+    </div>
+    <div class="col"></div>
+    </div>
+
+
+</div>
+
+</body>
+<script src="main.js"></script> 
+</html>
